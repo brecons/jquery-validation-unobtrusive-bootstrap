@@ -9,7 +9,18 @@ You can get this library on Bower:
 $ bower install jquery-validation-unobtrusive-bootstrap
 ```
 
-## How to use?
+or modify your package dependencies within `bower.json`:
+```javascript
+"dependencies": {
+	"bootstrap": "v4.0.0-beta",
+	"jquery": "3.2.1",
+	"jquery-validation": "1.17.0",
+	"jquery-validation-unobtrusive": "3.2.6",
+	"jquery-validation-unobtrusive-bootstrap": "2.0.0"
+}
+```
+
+## Usage
 Just include the javascript after jquery.validate.unobtrusive and that's it!
 ```html
 <script src="~/lib/jquery/dist/jquery.slim.min.js" type="text/javascript"></script>
@@ -20,7 +31,7 @@ Just include the javascript after jquery.validate.unobtrusive and that's it!
 <script src="~/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 ```
 
-## License Information
+## License
 This project has been released under the [MIT License](https://opensource.org/licenses/mit-license.php). This license applies ONLY
 to the source of this repository and does not extend to any other Brecons distribution or variant, or any other 3rd party libraries
 used in  repository.

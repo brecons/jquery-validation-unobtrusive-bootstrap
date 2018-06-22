@@ -19,5 +19,10 @@
     $.validator.unobtrusive.options = {
         errorClass: defaultOptions.errorClass,
         validClass: defaultOptions.validClass,
+        errorElement: 'div',
+        errorPlacement: function (error, element) {
+            error.addClass('invalid-feedback');
+            error.insertAfter(element);
+        }
     };
 })(jQuery);

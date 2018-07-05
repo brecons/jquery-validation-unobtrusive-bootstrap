@@ -22,7 +22,12 @@
         errorElement: 'div',
         errorPlacement: function (error, element) {
             error.addClass('invalid-feedback');
-            error.insertAfter(element);
+
+            if ($element.next().is(".input-group-append")) {
+                $error.insertAfter($element.next());
+            } else {
+                $error.insertAfter($element);
+            }
         }
     };
 })(jQuery);

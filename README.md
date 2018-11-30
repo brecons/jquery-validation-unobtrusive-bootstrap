@@ -7,7 +7,9 @@ This library is a extension for [jQuery Validation Unobtrusive](https://github.c
 You can get this library in different ways:
 
 Install with [npm](https://www.npmjs.com): `npm i jquery-validation-unobtrusive-bootstrap`
+
 Install with [yarn](https://yarnpkg.com): `yarn add jquery-validation-unobtrusive-bootstrap`
+
 Clone the [git](https://github.com) repository: `git clone https://github.com/brecons/jquery-validation-unobtrusive-bootstrap.git`
 
 ## Usage

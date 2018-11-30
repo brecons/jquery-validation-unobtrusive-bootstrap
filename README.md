@@ -4,21 +4,11 @@ Bootstrap v4.x Extension for [jQuery Validation Unobtrusive](https://github.com/
 This library is a extension for [jQuery Validation Unobtrusive](https://github.com/aspnet/jquery-validation-unobtrusive) and [jQuery Validation](https://github.com/jquery-validation/jquery-validation). It ensures the full compatibility between Bootstrap v4.x and jQuery Validation in interaction with ASP.NET Core.
 
 ## Installation
-You can get this library on Bower:
-```
-$ bower install jquery-validation-unobtrusive-bootstrap
-```
+You can get this library in different ways:
 
-or modify your package dependencies within `bower.json`:
-```javascript
-"dependencies": {
-	"bootstrap": "v4.0.0-beta",
-	"jquery": "3.2.1",
-	"jquery-validation": "1.17.0",
-	"jquery-validation-unobtrusive": "3.2.6",
-	"jquery-validation-unobtrusive-bootstrap": "2.0.0"
-}
-```
+Install with [npm](https://www.npmjs.com): `npm i jquery-validation-unobtrusive-bootstrap`
+Install with [yarn](https://yarnpkg.com): `yarn add jquery-validation-unobtrusive-bootstrap`
+Clone the [git](https://github.com) repository: `git clone https://github.com/brecons/jquery-validation-unobtrusive-bootstrap.git`
 
 ## Usage
 Just include the javascript after jquery.validate.unobtrusive and that's it!

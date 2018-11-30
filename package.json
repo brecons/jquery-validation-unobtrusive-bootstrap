@@ -10,8 +10,6 @@
   "files": [
     "dist/*.js"
   ],
-  "repository": {
-    "url": "https://github.com/brecons/jquery-validation-unobtrusive-bootstrap",
-    "type": "git"
-  }
+  "repository": "https://github.com/brecons/jquery-validation-unobtrusive-bootstrap",
+  "private": false
 }

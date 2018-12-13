@@ -24,10 +24,10 @@
             errorPlacement: function (error, element) {
                 error.addClass('invalid-feedback');
 
-                if ($element.next().is(".input-group-append")) {
-                    $error.insertAfter($element.next());
+                if (element.next().is(".input-group-append")) {
+                    error.insertAfter(element.next());
                 } else {
-                    $error.insertAfter($element);
+                    error.insertAfter(element);
                 }
             }
         };

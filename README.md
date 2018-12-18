@@ -28,4 +28,4 @@ This project has been released under the [MIT License](https://opensource.org/li
 to the source of this repository and does not extend to any other Brecons distribution or variant, or any other 3rd party libraries
 used in  repository.
 
-Copyright &copy; 2016 - 2017 [Bremus Solutions](http://www.bremus-solutions.de)
+Copyright &copy; 2016 - 2019 [Bremus Solutions](http://www.bremus-solutions.de)

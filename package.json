@@ -1,6 +1,6 @@
 {
   "name": "jquery-validation-unobtrusive-bootstrap",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Add-on to jQuery Validation to make unobtrusive validation compatible to Bootstrap v4.x.",
   "homepage": "https://www.brecons.net",
   "bugs": "https://github.com/brecons/jquery-validation-unobtrusive-bootstrap/issues",
